@@ -1,0 +1,209 @@
+/*顶层界面皮肤配置*/
+QWidget#wgt_topLayer{
+    min-height: 50px;
+    max-height: 50px;
+    border-image: url(:/red/skins/red/top.png);
+
+}
+
+QLabel#lb_title{
+    min-width: 122px;
+    max-width: 122px;
+    min-height: 27px;
+    max-height: 27px;
+    border-image: url(:/common/skins/common/widgetIcon.png);
+}
+
+QPushButton#pb_close, #pb_min, #pb_max, #pb_setting{
+    min-width: 17px;
+    max-width: 17px;
+    min-height: 16px;
+    max-height: 16px;
+}
+
+QPushButton#pb_skinsChanged{
+    min-width: 18px;
+    max-width: 18px;
+    min-height: 16px;
+    max-height: 16px;
+    border-image: url(:/common/skins/common/clothesNormal.png);
+}
+
+QPushButton#pb_skinsChanged:pressed{
+    border-image: url(:/common/skins/common/clothesPressed.png);
+}
+
+QPushButton#pb_close{
+    border-image: url(:/common/skins/common/closeNormal.png);
+}
+
+QPushButton#pb_close:pressed{
+    border-image: url(:/common/skins/common/closePressed.png);
+}
+
+QPushButton#pb_min{
+    border-image: url(:/common/skins/common/minimizeNormal.png);
+}
+
+QPushButton#pb_min:pressed{
+    border-image: url(:/common/skins/common/minimizePressed.png);
+}
+
+QPushButton#pb_setting{
+    border-image: url(:/common/skins/common/setNormal.png);
+}
+
+QPushButton#pb_setting:pressed{
+    border-image: url(:/common/skins/common/setPressed.png);
+}
+
+/*中层界面皮肤配置*/
+QWidget#wgt_middleLayer{
+   border-image: url(:/red/skins/red/middle.png);
+}
+
+QWidget#meng{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 375px;
+    max-height: 375px;
+}
+
+QListWidget#lw_lyricShow{
+    border-image: url(:/red/skins/red/middle.png);
+}
+
+QListWidget#lw_lyricShow{
+    color: rgb(248, 217, 129);
+    font: bold;
+    font-family: "楷体";
+    font-size: 20px;
+}
+
+QListWidget#lw_lyricShow::item{
+    min-height: 30px;
+    max-height: 30px;
+    background-color: transparent;
+}
+
+QListWidget#lw_lyricShow:item:selected{
+    color: red;
+}
+
+/*底层界面皮肤配置*/
+QWidget#wgt_bottomLayer{
+    min-height: 50px;
+    max-height: 50px;
+    border-image: url(:/common/skins/common/low.png);
+}
+
+QLabel#lb_songName{
+    font: bold;
+    font-family: "楷体";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+QPushButton#pb_volume{
+    border-image: url(:/common/skins/common/volumeon.png);
+}
+
+QPushButton#pb_player{
+        min-width: 36px;
+        max-width: 36px;
+        min-height: 36px;
+        max-height: 36px;
+}
+
+QPushButton#pb_prev, #pb_next{
+        min-width: 32px;
+        max-width: 32px;
+        min-height: 32px;
+        max-height: 32px;
+}
+
+QPushButton#pb_player{
+        border-image: url(:/red/skins/red/playStartNormal.png);
+}
+
+QPushButton#pb_player:pressed{
+        border-image: url(:/red/skins/red/playStartPressed.png);
+}
+
+QPushButton#pb_player:hover{
+        border-image: url(:/red/skins/red/playStartHover.png);
+}
+
+QPushButton#pb_prev{
+        border-image: url(:/red/skins/red/previous.png);
+}
+
+QPushButton#pb_prev:pressed{
+        border-image: url(:/red/skins/red/previousPressed.png);
+}
+
+QPushButton#pb_prev:hover{
+        border-image: url(:/red/skins/red/previousHover.png);
+}
+
+QPushButton#pb_next{
+        border-image: url(:/red/skins/red/next.png);
+}
+
+QPushButton#pb_next:pressed{
+        border-image: url(:/red/skins/blue/nextPressed.png);
+}
+
+QPushButton#pb_next:hover{
+        border-image: url(:/red/skins/red/nextHover.png);
+}
+
+QPushButton#pb_playList{
+        min-width: 32px;
+        max-width: 32px;
+        min-height: 25px;
+        max-height: 25px;
+        border-image: url(:/common/skins/common/playListNormal.png);
+}
+
+QLabel#lb_timeUpdate{
+        color:#666666;
+}
+
+QSlider::sub-page:horizontal{
+        margin: 5px 0px 5px 0px;
+        background-color: #ea2000;
+}
+QSlider::sub-page{
+        margin: 5px 0px 5px 0px;
+        background-color: #666666;
+}
+
+QSlider#hs_volume{
+        min-width: 80px;
+        max-width: 80px;
+        min-height: 13px;
+        max-height: 13px;
+}
+
+QSlider#hs_volume:handle{
+        border-image: url(:/red/skins/red/sliderHandle.png);
+}
+
+QSlider#hs_position{
+        min-height: 13px;
+        max-height: 13px;
+}
+
+QSlider#hs_position:handle{
+        border-image: url(:/red/skins/red/sliderHandle.png);
+}
+
+QPushButton#pb_playMode{
+    min-width: 30px;
+    max-width: 30px;
+    min-height: 25px;
+    max-height: 25px;
+    border-image: url(:/common/skins/common/loopPressed.png);
+}

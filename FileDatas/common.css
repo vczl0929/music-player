@@ -1,0 +1,21 @@
+QListWidget#lw_lyricShow{
+    border-image: url(:/common/skins/common/middle.png);
+}
+
+QListWidget#lw_lyricShow{
+    color: rgb(248, 217, 129);
+    font: bold;
+    font-family: "楷体";
+    font-size: 20px;
+    border: none;
+}
+
+QListWidget#lw_lyricShow::item{
+    min-height: 30px;
+    max-height: 30px;
+    background-color: transparent;
+}
+
+QListWidget#lw_lyricShow:item:selected{
+    color: red;
+}

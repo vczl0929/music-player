@@ -1,0 +1,36 @@
+QPushButton#pb_playList_close{
+    border-image: url(:/common/skins/common/closePressed.png);
+}
+
+QWidget#wgt_playList{
+    border-image: url(:/blue/skins/blue/bluePlayList.png);
+}
+
+QPushButton#pb_playList_close:pressed{
+    border-image: url(:/common/skins/common/closeNormal.png);
+}
+
+QListWidget#lw_songsList{
+    border-image: url(:/blue/skins/blue/bluePlayList.png);
+}
+
+QListWidget#lw_songsList{
+    color: purple;
+    font: bold;
+    font-family: "楷体";
+    font-size: 20px;
+}
+
+QListWidget#lw_songsList::item{
+    min-height: 30px;
+    max-height: 30px;
+    background-color: transparent;
+}
+
+QListWidget#lw_songsList::item:hover{
+    color: red;
+}
+
+QListWidget#lw_songsList::item:selected{
+    color: blue;
+}
